@@ -25,9 +25,9 @@ public class BackupTool {
 
 //        Quick Testing From IDE
 //        args = new String[]{"snapshot","--target-directory=~/testTargetDirectory"};
-//        args = new String[]{"restore","--snapshot-number=34","--output-directory=~/outTargetDirectory"};
+//        args = new String[]{"restore","--snapshot-number=1","--output-directory=~/outTargetDirectory"};
 //        args = new String[]{"prune","--snapshot=34"};
-        args = new String[]{"list"};
+//        args = new String[]{"list"};
 
         if (args.length == 0) {
             System.out.println(USAGE_MESSAGE);
