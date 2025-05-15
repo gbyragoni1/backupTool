@@ -39,8 +39,9 @@ File backup and restore tool
 
 9. On mac os, you can create an alias by adding the following line to your `~/.bash_profile` or `~/.zshrc` file:
    ```bash
-   alias backupTool='java -jar <project_root>/target/backupTool-1.0-SNAPSHOT.jar'
+   alias backuptool='<PROJECT_ROOT>/backupTool/bin/backuptool.sh'
    ```
+   where `<PROJECT_ROOT>` is the path to the project root directory.
    Then, run the following command to apply the changes:
    ```bash
    source ~/.bash_profile
